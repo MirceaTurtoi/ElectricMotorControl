@@ -4,8 +4,8 @@ In this repository you will find a file that controls the positioning of stepper
 ## Control of brushed electric motor
 The brushed electric motors are positioned with the help of an encoder that reads the position of the shaft and a PID calculator.
 
-## Control of stepper motor
-Stepper motors are controlled step by step, counting number of steps made, taking into consideration the direction of rotation and also the rate of steps.
-
 ## Master/Slave connection
 The connection between Arduino Master and Arduino Slave is made using I2C protocol for serial communication. The data transmitted is the position of the electric motors.
+
+## Control of stepper motor
+Stepper motors are controlled step by step, counting number of steps made, taking into consideration the direction of rotation and also the rate of steps.
